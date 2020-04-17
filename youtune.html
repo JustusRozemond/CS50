@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>YouTune!</title>
+		<meta name="viewport" content="width-device-width, intial-scale=1.0">
+		<link rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous">
+		<link rel="stylesheet" href="./styles.css">
+		<style>
+			.yt_app{border:2px solid black; 
+					padding:10px;
+					background:#256c99;
+					text-align:center;
+					width:275px}
+		</style>
+		<style>
+			.yt_instrow{display:grid;
+						padding:3px;
+						grid-gap: 3px;
+						grid-template-columns: 30px 30px 30px 30px 45px 30px}
+			.yt_instrow > div {
+						background:#232324;
+						border:1pt solid black;
+						height: 29px;
+						width: 29px;}
+		</style>
+	</head>
+	<body>
+		<h1> YouTune!</h1>
+		<hr>
+		<p>
+		</p>
+		<div class="yt_app">
+			<div class="yt_instrow">
+				<div> <input type="radio" id="Ch1" name="chord" value="Ch1"></div>
+				<div> <input type="radio" id="Ch2" name="chord" value="Ch2"></div>
+				<div> <input type="radio" id="Ch3" name="chord" value="Ch3"></div>
+				<div> <input type="radio" id="Ch4" name="chord" value="Ch4"></div>
+				<div> <input type="radio" id="Ch5" name="chord" value="Ch5"></div>
+			</div>
+			<p></p>
+			<div class="yt_instrow">
+				<div><input type="radio" id="A1" name="note" value="A1"></div>
+				<div><input type="radio" id="A2" name="note" value="A2"></div>
+				<div><input type="radio" id="A3" name="note" value="A3"></div>
+				<div><input type="radio" id="A4" name="note" value="A4"></div>
+				<div><input type="radio" id="A5" name="note" value="A5"></div>
+				<div><input type="radio" id="A" name="instrument" value="A">Fl</div>
+			</div>
+			<div class="yt_instrow">
+				<div><input type="radio" id="B1" name="note" value="B1"></div>
+				<div><input type="radio" id="B2" name="note" value="B2"></div>
+				<div><input type="radio" id="B3" name="note" value="B3"></div>
+				<div><input type="radio" id="B4" name="note" value="B4"></div>
+				<div><input type="radio" id="B5" name="note" value="B5"></div>
+				<div><input type="radio" id="B" name="instrument" value="B">Ob</div>
+			</div>
+			<div class="yt_instrow">
+				<div><input type="radio" id="C1" name="note" value="C1"></div>
+				<div><input type="radio" id="C2" name="note" value="C2"></div>
+				<div><input type="radio" id="C3" name="note" value="C3"></div>
+				<div><input type="radio" id="C4" name="note" value="C4"></div>
+				<div><input type="radio" id="C5" name="note" value="C5"></div>
+				<div><input type="radio" id="C" name="instrument" value="C">Cl</div>
+			</div>
+			<div class="yt_instrow">
+				<div><input type="radio" id="D1" name="note" value="D1"></div>
+				<div><input type="radio" id="D2" name="note" value="D2"></div>
+				<div><input type="radio" id="D3" name="note" value="D3"></div>
+				<div><input type="radio" id="D4" name="note" value="D4"></div>
+				<div><input type="radio" id="D5" name="note" value="D5"></div>
+				<div><input type="radio" id="D" name="instrument" value="D"></div>
+			</div>
+			<div class="yt_instrow">
+				<div><input type="radio" id="E1" name="note" value="E1"></div>
+				<div><input type="radio" id="E2" name="note" value="E2"></div>
+				<div><input type="radio" id="E3" name="note" value="E3"></div>
+				<div><input type="radio" id="E4" name="note" value="E4"></div>
+				<div><input type="radio" id="E5" name="note" value="E5"></div>
+				<div><input type="radio" id="E" name="instrument" value="E"></div>
+			</div>
+		</div>
+		<p></p>
+		<h2> ToDo list:</h1>
+		<p>
+		<div class="container">
+		<ul>
+			<div class="row">
+				<div class="col-lg-3 col-sm-4";>
+					<li>add labels to radio button (struggling with this)</li>
+				</div>
+				<div class="col-lg-3 col-sm-4";>
+					<li>connect the top/right master button status to the centre grid buttons</li>
+				</div>
+				<div class="col-lg-3 col-sm-4";>
+					<li>add highlight behaviour when hovering over the grid</li>
+				</div>
+				<div class="col-lg-3 col-sm-4";>
+					<li>add play button</li>
+				</div>
+				<div class="col-lg-3 col-sm-4";>
+					<li>add info/about button</li>
+				</div>
+				<div class="col-lg-3 col-sm-4";>
+					<li>add a settings button</li>
+				</div>
+				<div class="col-lg-3 col-sm-4";>
+					<li>add random generator to gerenate chord sequence</li>
+				</div>
+				<div class="col-lg-3 col-sm-4";>
+					<li>write code that generates sound file</li>
+				</div>
+				<div class="col-lg-3 col-sm-4";>
+					<li>link sound file to play button</li>
+				</div>
+				<div class="col-lg-3 col-sm-4";>
+					<li>respond to radio button "guesses"</li>
+				</div>
+			</div>
+		</div>
+		</ul>
+		</p>
+		<p>
+		</p>
+		<a href="index.html" class="btn btn-danger" role="button">Back to main</a>
+	</body>
+</html>

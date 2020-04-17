@@ -1,0 +1,38 @@
+/* Key Colours */
+  $mainfcolor:#014508;
+  $headfcolor:#450b08;
+  $mainbgcolor:#dbe04c;
+  $modbgcolor:#d6db30;
+  $tablecolor:#b7b3e6;
+
+  %mainfont {font-family: TimesNewRoman}
+
+  body {
+    @extend %mainfont;
+    font-size:20px;
+    background-color:$mainbgcolor;
+    color: $mainfcolor;
+    padding:5pt 20pt}
+  h1,h2 {
+    @extend %mainfont;
+    color:$headfcolor;}
+  hr {border:solid 1px $headfcolor;}
+  p {
+    @extend %mainfont;
+    text-indent:35px;
+    margin-top:25px;}
+
+    th, td {
+    border: 1pt solid $headfcolor;
+    border-collapse: collapse;
+    padding: 10px}
+ 
+  table#table1 {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3pt solid $mainfcolor;
+    padding: 10px;
+    background-color: $tablecolor;
+    color: $mainfcolor;
+    th{color: $tablecolor;background-color:$mainfcolor;}
+    tr{color: $mainfcolor;background-color:$tablecolor}}

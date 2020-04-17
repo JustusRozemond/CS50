@@ -1,0 +1,40 @@
+/* Key Colours */
+body, h1, h2, p {
+  font-family: TimesNewRoman; }
+
+body {
+  font-size: 20px;
+  background-color: #dbe04c;
+  color: #014508;
+  padding: 5pt 20pt; }
+
+h1, h2 {
+  color: #450b08; }
+
+hr {
+  border: solid 1px #450b08; }
+
+p {
+  text-indent: 35px;
+  margin-top: 25px; }
+
+th, td {
+  border: 1pt solid #450b08;
+  border-collapse: collapse;
+  padding: 10px; }
+
+table#table1 {
+  width: 100%;
+  border-collapse: collapse;
+  border: 3pt solid #014508;
+  padding: 10px;
+  background-color: #b7b3e6;
+  color: #014508; }
+  table#table1 th {
+    color: #b7b3e6;
+    background-color: #014508; }
+  table#table1 tr {
+    color: #014508;
+    background-color: #b7b3e6; }
+
+/*# sourceMappingURL=styles.css.map */
